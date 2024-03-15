@@ -11,7 +11,9 @@ function App() {
         <nav className='mb-6 md:mb-12'>
         <Header></Header>
         </nav>
+        <section className='px-3 lg:px-0'>
         <Banner></Banner>
+        </section>
       </header>
     </>
   )

@@ -1,14 +1,17 @@
 import banImg from '../image/bannerChef.png'
 const Banner = () => {
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: `url(${banImg})` }}
+        <div className="rounded-3xl hero min-h-screen bg-no-repeat bg-center font_lexend" style={{ backgroundImage: `url(${banImg})` }}
         >
-            <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero-overlay bg-opacity-10 rounded-3xl"></div>
             <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+                <div className="w-full">
+                    <h1 className="text-2xl md:text-6xl font-semibold md:font-bold mb-4 md:mb-6">Discover an exceptional cooking <br/>class tailored for you!</h1>
+                    <p className="text-sm md:text-lg mb-6 md:mb-10">Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding <br />problems to become an exceptionally well world-class Programmer.</p>
+                    <div className='space-x-0.5 md:space-x-6'>
+                    <button className="bg-[#0BE58A] border-0 rounded-full px-3 md:px-7 py-3 md:py-5 text-[#150B2B] text-base md:text-xl font-semibold">Explore Now</button>
+                    <button className="rounded-full border px-3 md:px-7 py-3 md:py-5 text-base md:text-xl font-semibold">Our Feedback</button>
+                    </div>
                 </div>
             </div>
         </div>
