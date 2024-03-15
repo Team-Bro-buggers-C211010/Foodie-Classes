@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Spaghetti Carbonara",
+      "img": "https://i.ibb.co/BZ2GrPn/spaghetti.jpg",
+      "desc": "Classic Italian pasta dish with bacon, eggs, and cheese.",
+      "ing": ["400g spaghetti", "200g pancetta or bacon", "3 large eggs", "100g grated Parmesan cheese", "Black pepper", "Salt"],
+      "time": "20 min",
+      "cal": "450 calories"
+    },
+    {
+      "id": 2,
+      "name": "Chicken Tikka Masala",
+      "img": "https://i.ibb.co/wBZvYnp/tikka-Masala.jpg",
+      "desc": "Creamy and flavorful Indian chicken dish in a tomato-based sauce.",
+      "ing": ["500g chicken breast", "200g plain yogurt", "2 tbsp tikka masala paste", "1 onion", "2 garlic cloves", "1 can chopped tomatoes", "1 cup cream"],
+      "time": "40 min",
+      "cal": "380 calories"
+    },
+    {
+      "id": 3,
+      "name": "Vegetable Stir-Fry",
+      "img": "https://i.ibb.co/hH3h6c2/Vegetable-Stir-Fry.jpg",
+      "desc": "Colorful and nutritious stir-fried vegetables with a savory sauce.",
+      "ing": ["2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas)", "200g tofu or chicken (optional)", "3 tbsp soy sauce", "2 tbsp sesame oil", "1 tbsp honey", "2 garlic cloves", "1 tsp ginger"],
+      "time": "25 min",
+      "cal": "250 calories"
+    },
+    {
+      "id": 4,
+      "name": "Beef Tacos",
+      "img": "https://i.ibb.co/SPQc2h5/Beef-Tacos.jpg",
+      "desc": "Delicious and satisfying Mexican street food favorite.",
+      "ing": ["500g ground beef", "1 packet taco seasoning", "1 onion", "1 bell pepper", "8 small tortillas", "1 cup shredded lettuce", "1 cup grated cheese", "Salsa", "Sour cream"],
+      "time": "30 min",
+      "cal": "320 calories"
+    },
+    {
+      "id": 5,
+      "name": "Mushroom Risotto",
+      "img": "https://i.ibb.co/p2rS3qb/Mushroom-Risotto.jpg",
+      "desc": "Creamy Italian rice dish cooked with mushrooms and Parmesan cheese.",
+      "ing": ["300g Arborio rice", "200g mushrooms", "1 onion", "2 garlic cloves", "1L vegetable or chicken broth", "100ml dry white wine", "50g grated Parmesan cheese", "2 tbsp butter"],
+      "time": "45 min",
+      "cal": "380 calories"
+    },
+    {
+      "id": 6,
+      "name": "Greek Salad",
+      "img": "https://i.ibb.co/YBhfkL2/Greek-Salad.jpg",
+      "desc": "Refreshing and healthy salad with crisp vegetables and creamy feta cheese.",
+      "ing": ["2 large tomatoes", "1 cucumber", "1 red onion", "200g feta cheese", "Kalamata olives", "Fresh oregano", "Olive oil", "Red wine vinegar", "Salt", "Pepper"],
+      "time": "15 min",
+      "cal": "200 calories"
+    },
+    {
+      "id": 7,
+      "name": "Spinach and Feta Stuffed Chicken Breast",
+      "img": "https://i.ibb.co/jTx1Zr1/Spinach-and-Feta-Stuffed-Chicken-Breast.jpg",
+      "desc": "Juicy chicken breasts filled with spinach and tangy feta cheese.",
+      "ing": ["4 boneless chicken breasts", "200g spinach", "100g feta cheese", "2 garlic cloves", "1 lemon", "Olive oil", "Salt", "Pepper"],
+      "time": "35 min",
+      "cal": "320 calories"
+    },
+    {
+      "id": 8,
+      "name": "Pumpkin Soup",
+      "img": "https://i.ibb.co/SVdT5Zg/Pumpkin-Soup.jpg",
+      "desc": "Creamy and comforting soup made with roasted pumpkin and aromatic spices.",
+      "ing": ["1 medium pumpkin", "1 onion", "2 garlic cloves", "1L vegetable or chicken broth", "100ml cream", "1 tsp cinnamon", "1/2 tsp nutmeg", "Salt", "Pepper"],
+      "time": "40 min",
+      "cal": "180 calories"
+    },
+    {
+      "id": 9,
+      "name": "Beef and Broccoli Stir-Fry",
+      "img": "https://i.ibb.co/zPmM6PZ/Beef-and-Broccoli-Stir-Fry.jpg",
+      "desc": "Quick and flavorful Asian-inspired dish with tender beef and crisp broccoli.",
+      "ing": ["500g beef sirloin", "400g broccoli florets", "1 onion", "2 garlic cloves", "3 tbsp soy sauce", "1 tbsp oyster sauce", "1 tsp sesame oil", "1 tsp cornstarch", "1 tsp sugar"],
+      "time": "25 min",
+      "cal": "300 calories"
+    },
+    {
+      "id": 10,
+      "name": "Quinoa Salad",
+      "img": "https://i.ibb.co/6F2Tbt9/Quinoa-Salad.jpg",
+      "desc": "Nutritious salad featuring protein-rich quinoa, colorful vegetables, and zesty dressing.",
+      "ing": ["1 cup quinoa", "2 cups water or vegetable broth", "1 bell pepper", "1 cucumber", "1 carrot", "1/4 cup chopped fresh herbs (parsley, cilantro)", "Juice of 1 lemon", "2 tbsp olive oil", "Salt", "Pepper"],
+      "time": "30 min",
+      "cal": "280 calories"
+    }
+  ]
+  
