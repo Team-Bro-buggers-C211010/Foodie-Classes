@@ -20,7 +20,7 @@
     {
       "id": 3,
       "name": "Vegetable Stir-Fry",
-      "img": "https://i.ibb.co/hH3h6c2/Vegetable-Stir-Fry.jpg",
+      "img": "vegetable_stir_fry.jpg",
       "desc": "Colorful and nutritious stir-fried vegetables with a savory sauce.",
       "ing": ["2 cups mixed vegetables (bell peppers, broccoli, carrots, snap peas)", "200g tofu or chicken (optional)", "3 tbsp soy sauce", "2 tbsp sesame oil", "1 tbsp honey", "2 garlic cloves", "1 tsp ginger"],
       "time": "25 min",
