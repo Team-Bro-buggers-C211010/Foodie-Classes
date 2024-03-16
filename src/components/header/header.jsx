@@ -16,7 +16,7 @@ const Header = () => {
                             <li className='font_lexend'><a>Search</a></li>
                             </ul>
                         </div>
-                        <a className="btn btn-ghost text-xl md:text-3xl font_lexend font-bold">Recipe Calories</a>
+                        <a className="btn btn-ghost text-xl md:text-3xl font_lexend font-bold">Foodie Classes</a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1 text-base">

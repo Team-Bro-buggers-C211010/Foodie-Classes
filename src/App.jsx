@@ -42,7 +42,7 @@ function App() {
           Our Recipes
           </h1>
           <p className="font_lexend text-[#150B2B99] text-base md:text-lg font-normal text-center mb-6 md:mb-12">
-        Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus vulputate netus pharetra rhoncus. Eget <br />urna volutpat curabitur elementum mauris aenean neque. 
+          Explore culinary excellence with our diverse recipes. From classics <br />to innovations, unleash your inner chef and savor every bite.
         </p>
         <Recipes wantCook={wantCook} handleWantToCook={handleWantToCook} handleCurrentCook={handleCurrentCook} newArray={newArray}></Recipes>
         </section>
