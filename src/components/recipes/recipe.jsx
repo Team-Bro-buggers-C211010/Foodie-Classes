@@ -1,7 +1,8 @@
 import times from '../../image/time.png'
 import flame from '../../image/flame.png'
+
 const Recipe = ({recipe}) => {
-  const {name,img,desc,ing,time,cal} = recipe;
+  const {name, img, desc, ing, time, cal} = recipe;
   return (
     <>
       <div className="card lg:w-full bg-base-100 shadow-xl border border-[#2828281A]">
@@ -14,9 +15,11 @@ const Recipe = ({recipe}) => {
           <hr />
           <h3 className="mt-6 mb-2 text-[#282828] text-lg font-medium font_lexend">Ingredients: {ing.length}</h3>
           <ul className="list-disc pl-6 mb-4 text-[#878787] text-lg">
-            <li>500g ground beef</li>
-            <li>1 onion, chopped</li>
-            <li>2 cloves garlic, minced</li>
+            {
+              ing.map((ingredient, idx) => (
+                <li key={idx}>{ingredient}</li>
+              ))
+            }
           </ul>
           <hr />
           <div className='flex gap-4 font_fira-sans text-[#282828CC] text-xs md:text-base mt-6'>
