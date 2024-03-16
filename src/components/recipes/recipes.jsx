@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import Cooks from './cooks'
 import Recipe from './recipe'
 
-const Recipes = () => {
+const Recipes = ({newArray,handleWantToCook,wantCook,handleCurrentCook}) => {
   const [carts, setCarts] = useState([]);
   useEffect(() => {
     fetch('/recipe.json')
@@ -14,10 +14,10 @@ const Recipes = () => {
       <div className='container mx-auto flex flex-col lg:flex-row w-full items-start gap-10 md:gap-20'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-10 w-full'>
           {carts.map((recipe) => (
-            <Recipe key={recipe.id} recipe={recipe} />
+            <Recipe handleWantToCook={handleWantToCook} key={recipe.id} recipe={recipe} />
           ))}
         </div>
-        <Cooks></Cooks>
+        <Cooks wantCook={wantCook} newArray={newArray} handleCurrentCook={handleCurrentCook}></Cooks>
       </div>
     </section>
   )

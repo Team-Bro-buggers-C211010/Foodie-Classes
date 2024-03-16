@@ -1,7 +1,7 @@
 import times from '../../image/time.png'
 import flame from '../../image/flame.png'
 
-const Recipe = ({recipe}) => {
+const Recipe = ({recipe,handleWantToCook}) => {
   const {name, img, desc, ing, time, cal} = recipe;
   return (
     <>
@@ -24,15 +24,15 @@ const Recipe = ({recipe}) => {
           <hr />
           <div className='flex gap-4 font_fira-sans text-[#282828CC] text-xs md:text-base mt-6'>
             <div className="flex gap-2  items-center"><img src={times} alt="" />
-            <span>30 minutes</span>
+            <span>{time} minutes</span>
             </div>
             <div className="flex gap-2  items-center">
             <img src={flame} alt="" />
-            <span>600 calories</span>
+            <span>{cal} calories</span>
             </div>
           </div>
           <div className="card-actions mt-4">
-            <button className="btn border-0 bg-[#0BE58A] px-6 rounded-full text-[#150B2B] text-lg font-medium">Want to Cook</button>
+            <button className="btn border-0 bg-[#0BE58A] px-6 rounded-full text-[#150B2B] text-lg font-medium" onClick={()=>handleWantToCook(recipe)}>Want to Cook</button>
           </div>
         </div>
       </div>
